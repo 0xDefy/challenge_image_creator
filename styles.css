@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* line-height: 0 !important; */
+    /* padding-top: 100px; */
+}
+#inputImg{
+    background: url(./images/challenge.png) no-repeat;
+    height: 470px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 4px;
+    padding: 4px;
+    line-height: 0 !important;
+}
+
+h1 {
+    font-size: 90px;
+    /* color: #fff; */
+    line-height: 2;
+}
+
+#countdown {
+    background-color: rgba(0,0,0,.4);
+    padding: 20px;
+    font-size: 45px;
+    color: #fff;
+    border-radius: 5px;
+    display: none;
+}
+h3 {
+    padding-left: 5rem;
+    font-size: 32px;
+    color: #000;
+}
+h1 {
+    padding-left: 12rem;
+    margin-top: 10px;
+    color: #FFF51F;
+}
